@@ -1,0 +1,108 @@
+• What are the benefits of using CSS?
+= CSS handles the look and feel part of a web page. Using CSS, you can control the color of the text, the style of fonts, the spacing between paragraphs, how columns are sized and laid out, etc. CSS saves time − You can write CSS once and then reuse the same sheet in multiple HTML pages.
+
+• What are the disadvantages of CSS?
+= Yes, there are some drawbacks to CSS. It can be complex for beginners, leading to a steep learning curve. Compatibility issues with different web browsers can also arise. Overusing CSS can potentially slow down a website’s performance.
+  (a) Browser Compatibility. CSS may render differently in various web browsers, leading to inconsistencies in the visual presentation. ...
+  (b) Learning Curve. ...
+  (c) Lack of Security. ...
+  (d) Limited Layout Control. ...
+  (e) Performance Impact. ...
+  (f) Overriding Styles. ...
+  (g) Maintenance Challenges.
+
+• What is the difference between CSS2 and CSS3?
+= (a) Modules: CSS3 is divided into many modules, while CSS2 is a single document.
+  (b) Browser support: CSS3 supports more browsers than CSS2.
+  (c) Features: CSS3 has new selectors, a flexible box layout module, and built-in support for text and box shadows.
+  (d) Fonts: CSS3 supports special fonts, such as those from Google Fonts and Typecast.
+  (e) Box model: CSS2 introduced a new box model with padding, borders, and margins.
+
+• Name a few CSS style components
+= (a) Component: A function that generates styles or a styles object.
+  (b) Inline CSS: Commands that appear in the same line as the HTML component declaration.
+  (c) Internal CSS: Styles that are included in the head section of an HTML document.
+  (d) External CSS: Styles that are stored in a separate file and can be linked to multiple HTML documents.
+  (e) Preprocessor: A tool that can be used to write and organize styles.
+  (f) Component styles: CSS class names and selectors that are local to the component.
+
+• What do you understand by CSS opacity?
+= In CSS, opacity is the property of an element that describes its transparency. It's the opposite of transparency and represents how much content is hidden behind an element. 
+
+• How can the background color of an element be changed?
+= Use the CSS background-color property. Set it to the color name or code you want and place it inside a style attribute. Then add this style attribute to an HTML element, like a table, heading, div, or span tag.
+
+• How can image repetition of the backup be controlled?
+= To control the repetition of an image in the background in CSS, you can use the background-repeat property. This property controls whether the background image will be repeated, and how it will be repeated. The background image can be repeated along the horizontal and vertical axes, or not repeated at all. 
+
+• What is the use of the background-position property?
+= The background-position property in CSS sets the starting position of a background image or gradient. It can also move the image around within its container. 
+
+• Which property controls the image scroll in the background?
+= The background-attachment property in CSS controls whether a background image scrolls with the rest of the page or remains fixed. The property has three values: scroll, fixed, and local. The default value is scroll. 
+  Here are some other background properties in CSS: 
+  (a) background-position: Positions the background image
+  (b) background-origin: Changes where the background image originates from
+  (c) background-repeat: Repeats the background image
+
+• Why should background and color be used as separate properties?
+= In CSS, background and color are separate properties for two reasons: 
+  (a) Legibility: Using separate properties makes style sheets more legible.
+  (b) Complexity: The background property is already complex, so combining it with color would make it even more complex.
+
+• How to center block elements using CSS1?
+= To center a block element in CSS, you can use the margin property. You can set the left and right margins to auto to center the block.
+
+• How to maintain the CSS specifications?
+= (a) Use a framework
+  (b) Maintain consistency
+  (c) Ensure it's readable
+  (d) Use multiple stylesheets
+  (e) Use two spaces for indentation
+  (f) Use soft-tabs
+  (g) Use double quotes
+  (h) Use shorthand notation
+
+• What are the ways to integrate CSS as a web page?
+= There are three ways of inserting a style sheet:
+(a) External CSS : With an external style sheet, you can change the look of an entire website by changing just one file!
+    Each HTML page must include a reference to the external style sheet file inside the <link> element, inside the head section.
+    An external style sheet can be written in any text editor, and must be saved with a .css extension.
+    The external .css file should not contain any HTML tags.
+(b) Internal CSS : An internal style sheet may be used if one single HTML page has a unique style.
+    The internal style is defined inside the <style> element, inside the head section.
+(c) Inline CSS : An inline style may be used to apply a unique style for a single element.
+    To use inline styles, add the style attribute to the relevant element. The style attribute can contain any CSS property.
+
+• What is embedded style sheets?
+= An embedded style sheet is declared within the <head> element of an XHTML document. It applies to the whole document, rather than just one element. Each style declaration (or CSS rule) gets applied to everything in the document that matches that rule.
+
+• What are the external style sheets?
+= An external style sheet is a separate CSS file that can be accessed by creating a link within the head section of the webpage. Multiple webpages can use the same link to access the stylesheet. The link to an external style sheet is placed within the head section of the page.
+
+• What are the advantages and disadvantages of using external style sheets?
+= (a) one change to the style sheet will change all linked pages
+  (b) you can create classes of styles that can then be used on many different HTML elements
+  (c) consistent look and feel across multiple web pages
+  (d) improved load times because the css file is downloaded once and applied to each relevant page as needed
+
+• What is the meaning of the CSS selector?
+= A CSS selector is the first part of a CSS Rule. It is a pattern of elements and other terms that tell the browser which HTML elements should be selected to have the CSS property values inside the rule applied to them.
+
+• What are the media types allowed by CSS?
+= (a) all : Suitable for all devices.
+  (b) aural : Intended for speech synthesizers.
+  (c) braille : Intended for braille tactile feedback devices.
+  (d) embossed : Intended for paged braille printers.
+  (e) handheld : Intended for handheld devices (typically small screen, monochrome, limited bandwidth).
+  (f) print : Intended for paged, opaque material and for documents viewed on screen in print preview mode. Please consult the section on paged media.
+  (g) projection : Intended for projected presentations, for example projectors or print to transparencies. Please consult the section on paged media.
+  (h) screen : Intended primarily for color computer screens.
+  (i) tty : Intended for media using a fixed-pitch character grid, such as teletypes, terminals, or portable devices with limited display capabilities.
+  (j) tv : Intended for television-type devices.
+
+• What is the rule set?
+= A CSS ruleset is a set of affirmations to various elements of a document. The goal is to apply a set of properties to a specific arrangement of components in the HTML page.
+  A CSS ruleset has two main parts: 
+  (a) CSS selector: Selects HTML elements
+  (b)Declaration block: Contains CSS properties in a key-value format to apply to the HTML element
